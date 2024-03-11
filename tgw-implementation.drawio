@@ -1,4 +1,4 @@
-<mxfile modified="2024-03-11T17:02:40.460Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="EuPVtTUrycmyq2vIpwBR" version="22.1.17" type="github" pages="3">
+<mxfile modified="2024-03-11T17:27:13.108Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9MV1jAu99cNxf0MbOJ--" version="22.1.17" type="github" pages="3">
   <diagram id="DbSjOc9vauFxHt3H6Z34" name="Deployment">
     <mxGraphModel dx="2080" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2500" math="0" shadow="0">
       <root>
@@ -255,7 +255,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RhvYLdSyNXKmb4ywOI3Y" name="RouteAutomation">
-    <mxGraphModel dx="1170" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2500" math="0" shadow="0">
+    <mxGraphModel dx="1440" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -410,6 +410,51 @@
         </mxCell>
         <mxCell id="95TDZLZJC1JzxkKGy2M2-13" value="TGW VPC Attachment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="475" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="50" width="540" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-10" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=43;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-12" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Account Bootstrapping Step function creates VPC in member account&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="80" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-13" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-14" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Account Bootstrapping Step function creates TGW VPC Attachment. Initially attachment will be in &#39;Pending Acceptance State&#39;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;It then waits for the attachment to be in availanle state&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="150" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-15" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1313.67" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-16" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Send custom event&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;span style=&quot;font-size: 17px; font-weight: normal;&quot;&gt;CreateTransitGatewayVpcAttachment&lt;/span&gt;&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&#39;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="270" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-17" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1315.8600000000001" y="360" width="27.81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-18" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Event rule triggers a Lambda function to process the attachment request in LZ Network account&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="360" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-19" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1315.8600000000001" y="450" width="24.14" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-20" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Lambda function accepts the TGW VPC attachment request.&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Attachment status changes to Pending&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Lambda waits for the attachment to be in Available state.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="450" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-21" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1311.0900000000001" y="595" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-22" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Once TGW VPC Attachment state is in Available state, Lambda updates the :&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Main Route Table for VPC route propagatio&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; font-weight: normal; background-color: initial;&quot;&gt;n&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px; font-weight: normal; background-color: initial;&quot;&gt;Tenant Route Table for VPC route association&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px; font-weight: normal; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="595" width="420" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-23" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1312.9299999999998" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bYVHYRVrRpzifl_OOO-24" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Once TGW VPC Attachment state is in Available state, Account Bootstrapping Step function updates the Private Subnet Route table with TGW route.&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;CIDR is fetch from the dispatch-network-table&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px; font-weight: normal; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="720" width="420" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
