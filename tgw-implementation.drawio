@@ -1,4 +1,4 @@
-<mxfile modified="2024-03-11T14:23:44.394Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="km5NnUx8tRkR5ZqWn6ir" version="22.1.17" type="github" pages="2">
+<mxfile modified="2024-03-11T15:22:07.426Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oa6qtZZx_aBX9iXQEXkN" version="22.1.17" type="github" pages="2">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1702" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -303,12 +303,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DbSjOc9vauFxHt3H6Z34" name="Page-2">
-    <mxGraphModel dx="1440" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2500" math="0" shadow="0">
+    <mxGraphModel dx="2080" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1yZyIi0RSL2ThgDVuG39-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="250" width="1460" height="1000" as="geometry" />
+          <mxGeometry x="270" y="250" width="1720" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="1yZyIi0RSL2ThgDVuG39-9" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="350" y="320" width="1260" height="880" as="geometry" />
@@ -485,8 +485,8 @@
         <mxCell id="ko0YlQ4_Gwb9SntYUXif-1" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1yZyIi0RSL2ThgDVuG39-9">
           <mxGeometry x="630" y="710" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="1yZyIi0RSL2ThgDVuG39-1" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1yZyIi0RSL2ThgDVuG39-9">
-          <mxGeometry x="1130" y="140" width="40" height="38" as="geometry" />
+        <mxCell id="1yZyIi0RSL2ThgDVuG39-1" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1yZyIi0RSL2ThgDVuG39-9">
+          <mxGeometry x="270" y="170" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="1yZyIi0RSL2ThgDVuG39-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1yZyIi0RSL2ThgDVuG39-9" source="1yZyIi0RSL2ThgDVuG39-5" target="48lFX4r8QGfotlOgwKCI-10">
           <mxGeometry relative="1" as="geometry">
@@ -501,11 +501,41 @@
         <mxCell id="1yZyIi0RSL2ThgDVuG39-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1yZyIi0RSL2ThgDVuG39-9">
           <mxGeometry x="410" y="70" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="rimON3m8lnx8rWMx3x9Y-1" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1yZyIi0RSL2ThgDVuG39-9">
+          <mxGeometry x="1120" y="170" width="40" height="38" as="geometry" />
+        </mxCell>
         <mxCell id="1yZyIi0RSL2ThgDVuG39-11" value="Fetch Tenant Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="510" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1yZyIi0RSL2ThgDVuG39-12" value="Fetch Account Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="470" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNpKSgGlo7jnQl5S_z5K-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="320" width="350" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-1" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="330" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-2" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;The transit gateway stack deploys the TGW gateway along with the main route table and flowlogs.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal; font-size: 17px;&quot;&gt;SSM Parameters are created to store the TGW ID &amp;amp; Main Route Table ID.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal; font-size: 17px;&quot;&gt;An Eventbridge Rule is also created which gets triggered when a custom event CreateTransitGatewayVPC Attachment occurs.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal; font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="330" width="260" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-3" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="610" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-4" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Based on the number of Tenant requiring CCP Transit Gateway connection shared VPC stack is deployed which created the Tenant&#39;s shared VPC, Route Table &amp;amp; Route53 outbound resolver and rule.&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;The resolver rule is shared with the Tenant&#39;s OU.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Flowlogs configuration are also created for the shared VPC.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;SSM Parameters are created to store the Tenant Route table ID.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="610" width="270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-6" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="920" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4cZD-F6nIQkOKU_kH68R-7" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;CAEdge TGW is manually peered with the CCP TGW&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="920" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rimON3m8lnx8rWMx3x9Y-2" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1010" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="rimON3m8lnx8rWMx3x9Y-3" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PUT Account endpoint is triggered to deploy the caedge-ccp-tgw-vpc.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; font-size: 17px;&quot;&gt;VPC CIDR details are provided in the payload. CIDR details are validated and stored in the dispatch-network-table.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; font-size: 17px;&quot;&gt;Account bootstrapping machine is triggered to deploy the VPC stack&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1010" width="270" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
