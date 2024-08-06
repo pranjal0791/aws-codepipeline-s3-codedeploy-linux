@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX8f1LEjSek1UIcQM4im-46" value="member-acc-vpc&lt;div&gt;(172.0.0.0/12)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="oX8f1LEjSek1UIcQM4im-46" value="ccp-tgw-vpc&lt;div&gt;(172.0.0.0/12)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="515" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
