@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sLUFw-evy7mvADKt9X_3-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sLUFw-evy7mvADKt9X_3-52" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFE599;" vertex="1" parent="1">
           <mxGeometry x="470" y="131" width="780" height="469" as="geometry" />
         </mxCell>
         <mxCell id="sLUFw-evy7mvADKt9X_3-9" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
@@ -43,10 +43,10 @@
         <mxCell id="sLUFw-evy7mvADKt9X_3-30" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1050" y="230" width="130" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="sLUFw-evy7mvADKt9X_3-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="sLUFw-evy7mvADKt9X_3-30">
+        <mxCell id="sLUFw-evy7mvADKt9X_3-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;startArrow=block;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="280" as="sourcePoint" />
-            <mxPoint x="1000.1700000000001" y="280.14" as="targetPoint" />
+            <mxPoint x="1040" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sLUFw-evy7mvADKt9X_3-32" value="&lt;b&gt;Network Hub&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
